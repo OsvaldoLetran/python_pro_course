@@ -1,4 +1,4 @@
-"""Testing the methods"""
+"""Testing methods"""
 
 
 import unittest
@@ -8,7 +8,7 @@ from prime_number import is_prime
 
 
 class TestingFunctions(TestCase):
-    """Tests to know if the methods works well"""
+    """Tests to know if methods works well"""
     
     def test_is_palindrome(self):
         """Testing is_palindrome method"""
