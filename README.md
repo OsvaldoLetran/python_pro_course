@@ -16,5 +16,5 @@ también se ha agregado los challenge de closure de python pro y numeros primos
 ```sh
 git clone
 cd python_pro
-python3 challenged_closure.py
+python3 challenge_closure.py
 ```
