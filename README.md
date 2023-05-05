@@ -11,6 +11,8 @@ python3 install -r requirement.txt
 python3 palindrome.py
 ```
 
+# Closure
+
 también se ha agregado los challenge de closure de python pro y numeros primos
 
 ```sh
@@ -18,6 +20,8 @@ git clone
 cd python_pro
 python3 challenge_closure.py
 ```
+
+# Fibonacci
 
 
 también se encuentra la sucesion de Fibonacci
