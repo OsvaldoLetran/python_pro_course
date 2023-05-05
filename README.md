@@ -18,3 +18,12 @@ git clone
 cd python_pro
 python3 challenge_closure.py
 ```
+
+
+también se encuentra la sucesion de Fibonacci
+
+```sh
+git clone
+cd python_pro
+python3 iterators.py
+```
