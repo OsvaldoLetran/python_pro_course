@@ -31,3 +31,16 @@ git clone
 cd python_pro
 python3 iterators.py
 ```
+
+# TimeZone
+
+para correr el file datetime_pytz debes seguir las siguientes instrucciones en la terminal
+
+```sh
+git clone
+cd python_pro
+python3 -m venv env
+source env/bin/activate
+python3 install -r requirement.txt
+python3 file_datetime_pytz.py
+```
