@@ -4,11 +4,16 @@ para correr el file palindrome debes seguir las siguientes instrucciones en la t
 
 ```sh
 git clone
-cd python_pro
-python3 -m venv env
-source env/bin/activate
-python3 install -r requirement.txt
 python3 palindrome.py
+```
+
+Con `mypy` podemos ver de mejor manera los errores:
+
+```sh
+python3 -m venv en
+source env/bin/activate
+python3 install -r requirements.txt
+mypy palindrome.py -check-untyped-defs
 ```
 
 # Closure
@@ -17,18 +22,15 @@ también se ha agregado los challenge de closure de python pro y numeros primos
 
 ```sh
 git clone
-cd python_pro
 python3 challenge_closure.py
 ```
 
 # Fibonacci
 
-
 también se encuentra la sucesion de Fibonacci
 
 ```sh
 git clone
-cd python_pro
 python3 iterators.py
 ```
 
@@ -38,9 +40,9 @@ para correr el file datetime_pytz debes seguir las siguientes instrucciones en l
 
 ```sh
 git clone
-cd python_pro
+cd date_time
 python3 -m venv env
 source env/bin/activate
-python3 install -r requirement.txt
-python3 file_datetime_pytz.py
+python3 install -r requirements.txt
+python3 src/file_datetime_pytz.py
 ```
